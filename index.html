@@ -196,18 +196,7 @@
                 
                 // Create the Twitch player
                 new Twitch.Player("twitch-embed", {
-                    channel: "dougheyy",
-                    width: "100%",
-                    height: "100%",
-                    theme: "dark",
-                    muted: true,  // Must be muted for autoplay to work in most browsers
-                    autoplay: true,
-                    // Optional: Add these parameters for better experience
-                    allowfullscreen: true,
-                    layout: "video-with-chat",
-                    // Additional autoplay settings
-                    time: "0h0m0s",  // Start from beginning
-                    parent: [window.location.hostname]  // Required for embedded players
+                    channel: "dougheyy"
                 });
             }, 1000);
         });
